@@ -1,10 +1,9 @@
-val x=1
-val y=2
-fun main(){
-    println("Hello world ${x+y}")
-    test()
+var x=1
+var y =2
+
+fun main() {
+    println("Hello world ${x + y}")
+    var teacher = Teacher("Vu linh","DHSP",38)
+    println(teacher.age)
 }
 
-fun test(){
-    println("Hello world in test fun")
-}
